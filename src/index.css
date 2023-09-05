@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-size: 102%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,45 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* -------------- Flex box config --------------- */
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+/* ------------- Padding and margin -------------- */
+.p1 {
+  padding: 1rem;
+}
+.py1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.p2 {
+  padding: 2rem;
+}
+.py2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.px2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

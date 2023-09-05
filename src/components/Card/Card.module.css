@@ -1,0 +1,17 @@
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-style: transparent;
+    border-radius: 3rem;
+    width: 60rem;
+    height: auto;
+    margin: 8rem 4rem;
+    padding: 2rem;
+    background-color: rgb(179, 179, 179, 0.5);
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.2);
+
+}

@@ -1,0 +1,50 @@
+.linkButton {
+	background-color: rgb(230, 230, 230);
+	border-radius: 50%;
+	padding: 0.8rem;
+	margin-right: 1.5rem;
+}
+
+.linkButton .fluidImage {
+	height: auto;
+	min-width: 2rem;
+	display: flex;
+	justify-content: left;
+}
+
+.fluidImage {
+	filter: invert(41%) sepia(9%) saturate(10%) hue-rotate(17deg) brightness(95%) contrast(87%);
+}
+	.linkButton:hover .fluidImage {
+		filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(251deg) brightness(106%) contrast(101%);
+	}
+
+.github, .linkedin, .unsplash, .chess {
+	background-color: rgb(255, 255, 255);
+}
+
+	.github:hover {
+		background-color: #171515;
+	}
+	.linkedin:hover {
+		background-color: #0072b1;
+	}
+	.unsplash:hover {
+		background-color: rgb(228, 97, 97);
+	}
+	.chess:hover {
+		background-color: #689f38;
+	}
+
+/* ----- Media queries -----------*/
+@media only screen and (min-width: 868px) {
+	.linksContainer {
+		justify-content: left;
+	}
+}
+
+@media only screen and (max-width: 867px) {
+	.linksContainer {
+		justify-content: space-around;
+	}
+}
