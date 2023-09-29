@@ -40,6 +40,7 @@ const LinkButton = props => {
         <a
             class={`${classes.linkButton} ${props.className}`} 
             target="_blank" 
+            rel="noreferrer"
             href={props.href}
         >
             <img  
@@ -53,7 +54,7 @@ const LinkButton = props => {
 
 const LinksContainer = props => {
     return (
-        <div className={`flex row justify-center p2 ${classes.linksContainer}`}>
+        <div className={`flex row justify-center py2 ${classes.linksContainer}`}>
             {linklist.map(link => {
                 return <LinkButton 
                             key={link.id} 
