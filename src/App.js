@@ -16,10 +16,12 @@ function App() {
           <div>
             <h1 className='bold'>Yash Vedanaparti</h1>
             <p>
-              Hi, I'm Yash. I'm a Technical Architect at Slack, with expertise building in NodeJS, React, and Python.
-              As a Certified AWS Solutions Architect, I enjoy crafting cloud solutions.
-              Beyond tech, I like exploring National Parks, playing chess, playing puzzle games like Squaredle, and taking [very] amateur photography.
-              Scroll down below to see some of my hobby projects I am most proud of.
+              👋 Hi, I'm Yash. I'm a Technical Architect at Slack, with expertise building things in NodeJS, React, and Python.
+              I'm also an AWS Certified Solutions Architect and enjoy developing cloud solutions.
+            </p>
+            <p>
+              Beyond tech, I like exploring National Parks, playing chess and puzzle games like Squaredle, riding my bike, and dabbling in [very] amateur photography.
+              Scroll down below to see some of my hobby projects 🎉.
             </p>
           </div>
           <LinksContainer />
@@ -27,7 +29,7 @@ function App() {
       </CardSection>
 
       <CardSection className="workCard">
-        <h1 className="px1">Some of my Hobby Projects</h1>
+        <h1 className="px1">My Hobby Projects</h1>
         <ProjectLink
           linkTitle="Bulletin"
           linkURL="https://bulletin.work"
