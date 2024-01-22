@@ -1,0 +1,18 @@
+
+.linkWrap {
+    margin: 2rem 1rem;
+    /* align-items: top;
+    justify-content: space-between; */
+}
+
+.link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    white-space: nowrap;
+    margin: 0.5rem 0;
+}
+
+.description {
+    margin: 0.5rem 0;
+}

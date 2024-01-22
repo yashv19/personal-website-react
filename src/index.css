@@ -14,10 +14,15 @@ body {
   font-weight: bolder;
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 @media only screen and (min-width: 868px) {
   h1 {
     font-size: 2.5rem;
   }
+
 }
 
 @media only screen and (max-width: 867px) {
@@ -71,4 +76,18 @@ body {
 .px2 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.m1 {
+  margin: 1rem;
+}
+
+.my1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }

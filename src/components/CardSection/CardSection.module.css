@@ -1,0 +1,15 @@
+@media only screen and (min-width: 868px) {
+    .main {
+        flex-direction: row;
+        max-width: 55rem;
+    }
+
+}
+
+@media only screen and (max-width: 867px) {
+    .main {
+        width: 90%;
+        flex-direction: column;
+    }
+
+}
