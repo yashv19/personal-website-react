@@ -26,7 +26,7 @@ function App() {
             </p>
             <p>
               Beyond tech, I like exploring National Parks, playing chess and puzzle games like Squaredle, riding my bike, and dabbling in [very] amateur photography.
-              Scroll down below to see some of my hobby projects 🤓.
+              Scroll down below to see some of my hobby projects.
             </p>
           </div>
           <LinksContainer />
