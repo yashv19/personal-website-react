@@ -38,7 +38,7 @@ const linklist = [
 const LinkButton = props => {
     return (
         <a
-            class={`${classes.linkButton} ${props.className}`} 
+            className={`${classes.linkButton} ${props.className}`} 
             target="_blank" 
             rel="noreferrer"
             href={props.href}

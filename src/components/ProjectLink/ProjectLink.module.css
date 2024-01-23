@@ -1,8 +1,6 @@
 
 .linkWrap {
     margin: 2rem 1rem;
-    /* align-items: top;
-    justify-content: space-between; */
 }
 
 .link {
@@ -15,4 +13,22 @@
 
 .description {
     margin: 0.5rem 0;
+}
+
+.imageHoverCard {
+    width: 20rem;
+    height: auto;
+    z-index: 100;
+    margin: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoverImage {
+    width: inherit;
+    border-radius: inherit;
 }
