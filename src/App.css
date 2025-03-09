@@ -1,12 +1,8 @@
 .page-wrapper {
 	max-width: 100vw;
 	width: 100%;
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/* background-image: linear-gradient(to top right, #264cd7, #9da5ee); */
 	background-color: #FFEEDD;
 
 }

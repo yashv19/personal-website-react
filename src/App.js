@@ -1,5 +1,5 @@
 import './App.css';
-import profile_photo from './assets/images/me-staring-at-burger-square.png'
+import profile_photo from './assets/images/profile_pic.JPG'
 import Section from './components/Section/Section';
 import LinksContainer from './components/LinksContainer/LinksContainer';
 import ProjectLink from './components/ProjectLink/ProjectLink';
