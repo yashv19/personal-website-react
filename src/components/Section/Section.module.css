@@ -1,7 +1,10 @@
+
+
 @media only screen and (min-width: 868px) {
     .main {
         flex-direction: row;
-        max-width: 60rem;
+        max-width: 80rem;
+        margin: 8rem 4rem;
     }
 
 }
@@ -10,6 +13,7 @@
     .main {
         width: 85%;
         flex-direction: column;
+        margin: 4rem 2rem;
     }
 
 }

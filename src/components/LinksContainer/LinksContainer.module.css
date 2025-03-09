@@ -20,7 +20,8 @@
 	}
 
 .github, .linkedin, .unsplash, .chess {
-	background-color: rgb(255, 255, 255);
+	background-color: #cfdecb;
+	transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 	.github:hover {

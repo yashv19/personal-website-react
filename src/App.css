@@ -6,7 +6,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(to top right, #264cd7, #9da5ee);
+	/* background-image: linear-gradient(to top right, #264cd7, #9da5ee); */
+	background-color: #FFEEDD;
 
 }
 
@@ -21,8 +22,6 @@
   	max-width: 100%;
 	width: 20rem;
 	height: auto;
-	border-radius: 10%;
-	box-shadow: 0 0 2rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .workCard  {

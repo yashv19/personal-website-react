@@ -1,10 +1,10 @@
 import  classes from './ProjectLink.module.css';
 import { useState } from 'react';
-import Card from '../Card/Card';
 
 const ProjectLink = ({linkTitle, linkURL, ...rest}) => {
 
     const [showHoverCard, setShowHoverCard] = useState(false);
+    const [position, setPostion] = useState({x: 0, y: 0});
 
     const mouseEnterHandler = event => {
         setShowHoverCard(true);
@@ -12,6 +12,10 @@ const ProjectLink = ({linkTitle, linkURL, ...rest}) => {
 
     const mouseLeaveHandler = () => {
         setShowHoverCard(false);
+    }
+
+    const mouseMoveHandler = (e) => {
+        setPostion({x: e.clientX, y: e.clientY})
     }
 
     return (
@@ -23,17 +27,24 @@ const ProjectLink = ({linkTitle, linkURL, ...rest}) => {
                 rel="noreferrer"
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
+                onMouseMove={mouseMoveHandler}
             >
                 {linkTitle}
             </a>
             {showHoverCard && 
-                <Card className={classes.imageHoverCard}>
+                <div 
+                    className={classes.imageHoverCard}
+                    style={{
+                        top: position.y,
+                        left: position.x
+                    }}
+                >
                     <img 
                         src={rest.imgSource}
                         alt='hover card for the link'
                         className={classes.hoverImage} 
                     />
-                </Card>
+                </div>
             }
             <p className={classes.description}>{rest.children}</p>
         </div>

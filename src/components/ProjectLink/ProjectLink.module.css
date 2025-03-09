@@ -4,7 +4,7 @@
 }
 
 .link {
-    color: #fff;
+    color: #222222;
     font-weight: bold;
     font-size: 1.3rem;
     white-space: nowrap;
@@ -16,16 +16,18 @@
 }
 
 .imageHoverCard {
-    width: 20rem;
+    width: 25rem;
     height: auto;
     z-index: 100;
     margin: 1rem;
     border-radius: 1rem;
-    position: absolute;
+    position: fixed;
     padding: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #cfdecb;
 }
 
 .hoverImage {
